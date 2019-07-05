@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+html {
+    font-family: arial;
+}
+
+header {
+    background-color: #06D6A0;
+    color: white;
+    padding: 1.3em;
+}
+
+.logo {
+    display: inline;
+    font-weight: 900;
+}
+
+nav {
+    float: right;
+}
+
+header li {
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+}
+
+header ul {
+    display: inline;
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+section.welcome {
+    background-color: #26547C;
+    color: white;
+    display: block;
+}
+
+.message {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 205px;
+    
+}
+
+.message > h2 {
+    display: inline;
+    font-size: 36px;
+}
+
+.welcome-image {
+    float: left;
+    max-width: 60%;
+}
+
+.welcome-image img {
+    max-width: 100%;
+}
+
+section.cats {
+    background-color: #FFD166;
+    padding: 30px 25px;
+}
+
+.cats p {
+    font-size: 1.2em;
+}
+
+.cats h3 {
+    font-size: 1.3em;
+}
+
+section.products {
+    background-color: #F2F2F2;
+    padding: 30px 25px;
+    overflow: hidden;
+}
+
+.products h3 {
+    margin-block-start: 1em;
+    font-size: 1.17em;
+}
+
+.products p {
+    margin-block-start: 1em;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+.products li {
+    float: left;
+    max-width: 33%;
+    padding: 10px;
+    
+}
+
+.products img {
+    max-width: 100%;
+    border: 3px solid black;
+}
+
+section.about {
+    background-color: #26547C;
+    overflow: hidden;
+    padding: 30px 25px;
+}
+
+div.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-fun{
+    grid-column: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+    font-size: 1.2em;
+}
+
+.item-values{
+    grid-column: 2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+    font-size: 1.2em;
+}
+
+.item-meow{
+    grid-column: 3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+    font-size: 1.2em;
+}
+
+.about p {
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding-top: 0;
+}
+
+footer {
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #06D6A0;
+    font-size: 1.2em;
+}
